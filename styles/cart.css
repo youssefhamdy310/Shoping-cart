@@ -1,0 +1,131 @@
+/* General styles for the cart page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+main {
+    max-width: 1200px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Table styles */
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2em 0;
+}
+
+.cart-table th, .cart-table td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-table th {
+    background-color: #333; /* Primary Color */
+    color: #fff;
+}
+
+.cart-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.cart-table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.cart-table td {
+    color: #333; /* Primary Color */
+}
+
+/* Button styles */
+.btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #fff;
+}
+
+.add-btn {
+    background-color: #28a745; /* Green */
+}
+
+.add-btn:hover {
+    background-color: #218838;
+}
+
+.delete-btn {
+    background-color: #dc3545; /* Red */
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
+
+.continue {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    font-size: 1em;
+    background-color: #ff4081;
+}
+
+.total-row td{
+   color: #fff;
+}
+
+.total-row {
+    background-color: #333 !important;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.minus {
+    background-color: #ff4081;
+    border: 1px solid #fff;
+    border-radius: 2px;
+}
+
+.add {
+    background-color: #28afa2;
+    border: 1px solid #fff;
+    border-radius: 2px;
+}
+
+.minus,
+.add:hover {
+    cursor: pointer;
+}
+
+.delete {
+    background-color: #ff4081;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.confirm {
+    background-color: #28afa2;
+    border: 1px solid #fff;
+    height: 50px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.confirm:hover {
+    cursor: pointer;
+}
